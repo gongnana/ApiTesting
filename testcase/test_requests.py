@@ -14,5 +14,4 @@ class TestRequests(object):
         logging.info(json.dumps(r.json(), indent=2))
 
 
-if __name__ == '__main__':
-    pytest.main(['test_requests'])
+
